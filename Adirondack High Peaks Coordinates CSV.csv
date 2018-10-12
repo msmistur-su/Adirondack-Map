@@ -1,0 +1,52 @@
+ID,Longitude,Latitude,Name,Elevation,Ascent of Climb,Length of Round Trip,Typical Hike Time,Range
+1,44.113,-73.924,MARCY,5344,3166,14.8 miles,10 hours,Marcy Group
+2,44.144,-73.987,ALGONQUIN,5114,2936,9.6 miles,9 hours,McIntyre Mountains
+3,44.106,-73.901,HAYSTACK,4960,3570,17.8 miles,12 hours,Marcy Group
+4,44.099,-73.931,SKYLIGHT,4926,4265,17.9 miles,15 hours,Marcy Group
+5,44.366,-73.903,WHITEFACE,4867,2535,10.4 miles,8.5 hours,Whiteface Mountain Area
+6,44.0824,-73.7867,DIX,4857,2800,13.2 miles,10 hours,Dix Range
+7,44.111,-73.935,GRAY,4840,4178,16 miles,14 hours,Marcy Group
+8,44.137,-73.999,IROQUOIS,4840,3250,11.6 miles,8.5 hours,McIntyre Mountains
+9,44.121,-73.887,BASIN,4827,3650,16.5 miles,11 hours,Great Range
+10,44.128,-73.858,GOTHICS,4736,4070,10 miles,9 hours,Great Range
+11,44.127,-73.96,COLDEN,4714,2850,15.2 miles,10 hours,Marcy Group
+12,44.1613,-73.7204,GIANT,4627,3050,6 miles,7.5 hours,Giant Mountain Area
+13,44.089,-73.816,NIPPLETOP,4620,4050,12.6 miles,10 hours,Colvin Range
+14,44.082,-74.131,SANTANONI,4607,2860,11.4 miles,10 hours,Santanoni Range
+15,44.095,-73.95,REDFIELD,4606,3225,17.5 miles,14 hours,Marcy Group
+16,44.152,-73.981,WRIGHT,4580,2400,7 miles,7 hours,McIntyre Mountains
+17,44.126,-73.875,SADDLEBACK,4515, ascent,13.4 miles,10 hours,Great Range
+18,44.098,-74.133,PANTHER,4442,3762,17.6 miles,13.5 hours,Santanoni Range
+19,44.1406,-73.9164,TABLETOP,4427,3660,15.2 miles,13 hours,Northern High Peaks
+20,44.1544,-73.7055,ROCKY PEAK,4420,4500,13.4 miles,11 hours,Giant Mountain Area
+21,44.052,-73.781,MACOMB,4405,2344,8.4 miles,8 hours,Dix Range
+22,44.1346,-73.8497,ARMSTRONG,4400,3734,12.7 miles,11 hours,Great Range
+23,44.069,-73.778,HOUGH PEAK,4400,3200,13.7 miles 11 hours,,Dix Range
+24,44.1598,-74.1993,SEWARD,4361,3490,16 miles,17 hours,Seward Mountains
+25,44.1276,-74.0118,MARSHALL,4360,2575,14 miles,11 hours,McIntyre Mountains
+26,44.0709,-73.9399,ALLEN,4340,2540,16.2 miles,13 hours,Marcy Group
+27,44.1823,-73.8704,BIG SLIDE,4240,2800,9.4 miles,8 hours,Northern High Peaks
+28,44.3872,-73.8899,ESTHER,4240,3020,9.4 miles,8 hours,Whiteface Mountain Area
+29,44.1404,-73.8453,UPPER WOLFJAW,4185,3619,12.7 miles,11 hours,Great Range
+30,44.1484,-73.8326,LOWER WOLFJAW,4175,2825,8.7 miles,8 hours,Great Range
+31,44.1798,-74.0438,STREET,4166,2115,8.8 miles,9.5 hours,Street Range
+32,44.157,-73.921,PHELPS,4161,3394,10 miles,9 hours,Northern High Peaks
+33,44.154,-74.2116,DONALDSON,4140,3490,17 miles,17 hours,Seward Mountains
+34,44.158,-74.1726,SEYMOUR,4120,2370,14 miles,11 hours,Seward Mountains
+35,44.1139,-73.8504,SAWTEETH,4100,2975,11.8 miles,9 hours,Great Range
+36,44.2187,-73.8601,CASCADE,4098,1940,4.8 miles,5 hours,Northern High Peaks
+37,44.0601,-73.7743,SOUTH DIX,4060,3050,11.5 miles,12 hours,Dix Range
+38,44.2124,-73.8538,PORTER MOUNTAIN,4059,2700,7.6 miles,5.5 hours,Northern High Peaks
+39,44.0939,-73.8343,COLVIN,4057,2130,10.8 miles,10 hours,Colvin Range
+40,44.1438,-74.2143,EMMONS,4040,3490,18 miles,18 hours,Seward Mountains
+41,44.1059,-73.796,DIAL,4020,3450,10 miles,9 hours,Colvin Range
+42,44.0653,-73.7574,EAST DIX,4012,3002,12.5 miles,12 hours,Dix Range
+43,44.0813,-73.8445,BLAKE,3960,3270,13.6 miles,12 hours,Colvin Range
+44,44.1031,-73.9751,CLIFF,3960,2160,17.2 miles,12 hours,Marcy Group
+45,44.1931,-74.024,NYE,3895,1844,7.5 miles,8.5 hours,Street Range
+46,44.0955,-74.1603,COUCHSACHRAGA,3820,3140,15 miles,12 hours,Santanoni Range
+,44.5437,-72.8143,MT. MANSFIELD,4395,,,,Green Mountain Range
+,43.6045,-72.8201,KILLINGTON PEAK,4229,,,,Green Mountain Range
+,44.1601,-72.9293,MT. ELLEN,4083,,,,Green Mountain Range
+,44.3195,-72.8863,CAMEL's HUMP,4083,,,,Green Mountain Range
+,44.1201,-72.9357,MOUNT ABRAHAM,4017,,,,Green Mountain Range

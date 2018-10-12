@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_3987020a608849bfbc788d65c5bbbe87 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_3987020a608849bfbc788d65c5bbbe87" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_3987020a608849bfbc788d65c5bbbe87 = L.map(
+                                  'map_3987020a608849bfbc788d65c5bbbe87',
+                                  {center: [44.113,-73.924],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_de0b578b61fd4d95b7b855fd4c3318da = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_3987020a608849bfbc788d65c5bbbe87);
+        
+    
+            var marker_cluster_367f12bc66914844981a66aaf1f6d2e9 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+            var marker_a053dd2baf6f4329ac9518fdc9cb7682 = L.marker(
+                [44.0824,-73.7867],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+                var icon_9ad6d06b6a7040278995c8014151c6e0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a053dd2baf6f4329ac9518fdc9cb7682.setIcon(icon_9ad6d06b6a7040278995c8014151c6e0);
+            
+    
+            var popup_cd4223f923bf49a6805d3b94352249f5 = L.popup({maxWidth: '300'});
+
+            
+                var html_69223e35e56c42f7a674bb2e69eaad6d = $('<div id="html_69223e35e56c42f7a674bb2e69eaad6d" style="width: 100.0%; height: 100.0%;">DIX <br> 4857 ft | 2800 ft ascent</div>')[0];
+                popup_cd4223f923bf49a6805d3b94352249f5.setContent(html_69223e35e56c42f7a674bb2e69eaad6d);
+            
+
+            marker_a053dd2baf6f4329ac9518fdc9cb7682.bindPopup(popup_cd4223f923bf49a6805d3b94352249f5);
+
+            
+        
+    
+
+            var marker_611bc5d1d45c47f1be6eff5e3ad058da = L.marker(
+                [44.052,-73.781],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+                var icon_b3cb351fe5794472b12f55c00e31bf83 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_611bc5d1d45c47f1be6eff5e3ad058da.setIcon(icon_b3cb351fe5794472b12f55c00e31bf83);
+            
+    
+            var popup_e4e61298741c4e00a81771900a8f7b62 = L.popup({maxWidth: '300'});
+
+            
+                var html_f1169f23f2db40dabe163d50b735cfaf = $('<div id="html_f1169f23f2db40dabe163d50b735cfaf" style="width: 100.0%; height: 100.0%;">MACOMB <br> 4405 ft | 2344 ft ascent</div>')[0];
+                popup_e4e61298741c4e00a81771900a8f7b62.setContent(html_f1169f23f2db40dabe163d50b735cfaf);
+            
+
+            marker_611bc5d1d45c47f1be6eff5e3ad058da.bindPopup(popup_e4e61298741c4e00a81771900a8f7b62);
+
+            
+        
+    
+
+            var marker_603c0805daf14406a6b53a172efc3f5a = L.marker(
+                [44.068999999999996,-73.778],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+                var icon_5a707251c23f43739507c9319c26457c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_603c0805daf14406a6b53a172efc3f5a.setIcon(icon_5a707251c23f43739507c9319c26457c);
+            
+    
+            var popup_47759b2a56504a6c9388ba7a5b20039e = L.popup({maxWidth: '300'});
+
+            
+                var html_d261cb212c48457b9648b5c042b2c9bc = $('<div id="html_d261cb212c48457b9648b5c042b2c9bc" style="width: 100.0%; height: 100.0%;">HOUGH PEAK <br> 4400 ft | 3200 ft ascent</div>')[0];
+                popup_47759b2a56504a6c9388ba7a5b20039e.setContent(html_d261cb212c48457b9648b5c042b2c9bc);
+            
+
+            marker_603c0805daf14406a6b53a172efc3f5a.bindPopup(popup_47759b2a56504a6c9388ba7a5b20039e);
+
+            
+        
+    
+
+            var marker_5c875a1aff6540f1ac2da629a434fce8 = L.marker(
+                [44.0601,-73.7743],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+                var icon_4e21d4091db94c71a03e387bee60b7d8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c875a1aff6540f1ac2da629a434fce8.setIcon(icon_4e21d4091db94c71a03e387bee60b7d8);
+            
+    
+            var popup_7b28acb28c6a4727a3a579b8f8cef4d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_7eb3b540540b46b994952d760ece1bc8 = $('<div id="html_7eb3b540540b46b994952d760ece1bc8" style="width: 100.0%; height: 100.0%;">SOUTH DIX <br> 4060 ft | 3050 ft ascent</div>')[0];
+                popup_7b28acb28c6a4727a3a579b8f8cef4d2.setContent(html_7eb3b540540b46b994952d760ece1bc8);
+            
+
+            marker_5c875a1aff6540f1ac2da629a434fce8.bindPopup(popup_7b28acb28c6a4727a3a579b8f8cef4d2);
+
+            
+        
+    
+
+            var marker_a4be95213bcc4e70b1f4c748085e79f8 = L.marker(
+                [44.0653,-73.7574],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_367f12bc66914844981a66aaf1f6d2e9);
+            
+    
+
+                var icon_8862d87b51c24c4dbe7fb484aee1ca80 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a4be95213bcc4e70b1f4c748085e79f8.setIcon(icon_8862d87b51c24c4dbe7fb484aee1ca80);
+            
+    
+            var popup_45254ed0766e4e22a141dadec3cf8c02 = L.popup({maxWidth: '300'});
+
+            
+                var html_c4ca2c90e55c410eb2402d1721bb1bd6 = $('<div id="html_c4ca2c90e55c410eb2402d1721bb1bd6" style="width: 100.0%; height: 100.0%;">EAST DIX <br> 4012 ft | 3002 ft ascent</div>')[0];
+                popup_45254ed0766e4e22a141dadec3cf8c02.setContent(html_c4ca2c90e55c410eb2402d1721bb1bd6);
+            
+
+            marker_a4be95213bcc4e70b1f4c748085e79f8.bindPopup(popup_45254ed0766e4e22a141dadec3cf8c02);
+
+            
+        
+    
+            var marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67);
+            
+    
+
+            var marker_80bb3b9822d244b6a0557bac8824bc91 = L.marker(
+                [44.089,-73.816],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67);
+            
+    
+
+                var icon_8b0da2f68c0446ba9c99dc8f8f97d64b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80bb3b9822d244b6a0557bac8824bc91.setIcon(icon_8b0da2f68c0446ba9c99dc8f8f97d64b);
+            
+    
+            var popup_d858f069e9df46f9a8367507a25e241e = L.popup({maxWidth: '300'});
+
+            
+                var html_814a47a61c624179a86647b2af8c65f3 = $('<div id="html_814a47a61c624179a86647b2af8c65f3" style="width: 100.0%; height: 100.0%;">NIPPLETOP <br> 4620 ft | 4050 ft ascent</div>')[0];
+                popup_d858f069e9df46f9a8367507a25e241e.setContent(html_814a47a61c624179a86647b2af8c65f3);
+            
+
+            marker_80bb3b9822d244b6a0557bac8824bc91.bindPopup(popup_d858f069e9df46f9a8367507a25e241e);
+
+            
+        
+    
+
+            var marker_f24cb48448a1469986b793e2c7ff844a = L.marker(
+                [44.0939,-73.8343],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67);
+            
+    
+
+                var icon_0e33b98fe647437ebc7f7cca517255ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f24cb48448a1469986b793e2c7ff844a.setIcon(icon_0e33b98fe647437ebc7f7cca517255ff);
+            
+    
+            var popup_69fcb801a66f4b058a8e29a7f37a7610 = L.popup({maxWidth: '300'});
+
+            
+                var html_bfb1b214f7ff49e880c112ec92b42ba7 = $('<div id="html_bfb1b214f7ff49e880c112ec92b42ba7" style="width: 100.0%; height: 100.0%;">COLVIN <br> 4057 ft | 2130 ft ascent</div>')[0];
+                popup_69fcb801a66f4b058a8e29a7f37a7610.setContent(html_bfb1b214f7ff49e880c112ec92b42ba7);
+            
+
+            marker_f24cb48448a1469986b793e2c7ff844a.bindPopup(popup_69fcb801a66f4b058a8e29a7f37a7610);
+
+            
+        
+    
+
+            var marker_d6142ffd25f947618c756ce569da9d74 = L.marker(
+                [44.1059,-73.796],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67);
+            
+    
+
+                var icon_8ff300af466c4c92922c98372cf342dd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6142ffd25f947618c756ce569da9d74.setIcon(icon_8ff300af466c4c92922c98372cf342dd);
+            
+    
+            var popup_f97d4043750d4af58437f4e8a485ea7f = L.popup({maxWidth: '300'});
+
+            
+                var html_3ff0a604db864048a39120acca1c2f4e = $('<div id="html_3ff0a604db864048a39120acca1c2f4e" style="width: 100.0%; height: 100.0%;">DIAL <br> 4020 ft | 3450 ft ascent</div>')[0];
+                popup_f97d4043750d4af58437f4e8a485ea7f.setContent(html_3ff0a604db864048a39120acca1c2f4e);
+            
+
+            marker_d6142ffd25f947618c756ce569da9d74.bindPopup(popup_f97d4043750d4af58437f4e8a485ea7f);
+
+            
+        
+    
+
+            var marker_8f5733a71d8b4368a7a65a337f92bdcf = L.marker(
+                [44.0813,-73.8445],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67);
+            
+    
+
+                var icon_c8e48340a06f474ab187eba6644949d1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'lightgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f5733a71d8b4368a7a65a337f92bdcf.setIcon(icon_c8e48340a06f474ab187eba6644949d1);
+            
+    
+            var popup_688363e1ed7a4f139de411ded0d15d12 = L.popup({maxWidth: '300'});
+
+            
+                var html_36f93ad6985f4f76bbcb19c875f619de = $('<div id="html_36f93ad6985f4f76bbcb19c875f619de" style="width: 100.0%; height: 100.0%;">BLAKE <br> 3960 ft | 3270 ft ascent</div>')[0];
+                popup_688363e1ed7a4f139de411ded0d15d12.setContent(html_36f93ad6985f4f76bbcb19c875f619de);
+            
+
+            marker_8f5733a71d8b4368a7a65a337f92bdcf.bindPopup(popup_688363e1ed7a4f139de411ded0d15d12);
+
+            
+        
+    
+            var marker_cluster_997ba54b50304562b40882c50f8599a4 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+            var marker_cbb55c1dc4a4491abd6855daba635d46 = L.marker(
+                [44.121,-73.887],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_10109a00e7b54b52810cc1f178d1dfef = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbb55c1dc4a4491abd6855daba635d46.setIcon(icon_10109a00e7b54b52810cc1f178d1dfef);
+            
+    
+            var popup_10a845e9efe84a9995e64a1da25298b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_3179e2a189f54ca5b00df27d2efe8375 = $('<div id="html_3179e2a189f54ca5b00df27d2efe8375" style="width: 100.0%; height: 100.0%;">BASIN <br> 4827 ft | 3650 ft ascent</div>')[0];
+                popup_10a845e9efe84a9995e64a1da25298b7.setContent(html_3179e2a189f54ca5b00df27d2efe8375);
+            
+
+            marker_cbb55c1dc4a4491abd6855daba635d46.bindPopup(popup_10a845e9efe84a9995e64a1da25298b7);
+
+            
+        
+    
+
+            var marker_d610ed0990ba4c919b1aaacd35c2cbb0 = L.marker(
+                [44.128,-73.858],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_02c863a0cbfb4f0fb581043ee61b947f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d610ed0990ba4c919b1aaacd35c2cbb0.setIcon(icon_02c863a0cbfb4f0fb581043ee61b947f);
+            
+    
+            var popup_95f1bf2c65f04bcd91516d4c1e818fdd = L.popup({maxWidth: '300'});
+
+            
+                var html_b9de17637d66436d8d9c6ebb56977bca = $('<div id="html_b9de17637d66436d8d9c6ebb56977bca" style="width: 100.0%; height: 100.0%;">GOTHICS <br> 4736 ft | 4070 ft ascent</div>')[0];
+                popup_95f1bf2c65f04bcd91516d4c1e818fdd.setContent(html_b9de17637d66436d8d9c6ebb56977bca);
+            
+
+            marker_d610ed0990ba4c919b1aaacd35c2cbb0.bindPopup(popup_95f1bf2c65f04bcd91516d4c1e818fdd);
+
+            
+        
+    
+
+            var marker_fa40de76faed48a0ad2167dda00c0338 = L.marker(
+                [44.126000000000005,-73.875],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_5759bd1ba8144a44b2c53ffc3ce5b2d1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa40de76faed48a0ad2167dda00c0338.setIcon(icon_5759bd1ba8144a44b2c53ffc3ce5b2d1);
+            
+    
+            var popup_a193ddfea307411da915bb6a89eb9281 = L.popup({maxWidth: '300'});
+
+            
+                var html_de1cca4da3cf4db3af1434b7b75e54b1 = $('<div id="html_de1cca4da3cf4db3af1434b7b75e54b1" style="width: 100.0%; height: 100.0%;">SADDLEBACK <br> 4515 ft |  ascent ft ascent</div>')[0];
+                popup_a193ddfea307411da915bb6a89eb9281.setContent(html_de1cca4da3cf4db3af1434b7b75e54b1);
+            
+
+            marker_fa40de76faed48a0ad2167dda00c0338.bindPopup(popup_a193ddfea307411da915bb6a89eb9281);
+
+            
+        
+    
+
+            var marker_4eb8edc0d30940318a3f99018ee6dd43 = L.marker(
+                [44.1346,-73.8497],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_acc9235360ea495bb31f28f441e3a972 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4eb8edc0d30940318a3f99018ee6dd43.setIcon(icon_acc9235360ea495bb31f28f441e3a972);
+            
+    
+            var popup_180d623ae29743789c85930ab644c148 = L.popup({maxWidth: '300'});
+
+            
+                var html_88a86a02edae4b5cb2b0bf80e590632f = $('<div id="html_88a86a02edae4b5cb2b0bf80e590632f" style="width: 100.0%; height: 100.0%;">ARMSTRONG <br> 4400 ft | 3734 ft ascent</div>')[0];
+                popup_180d623ae29743789c85930ab644c148.setContent(html_88a86a02edae4b5cb2b0bf80e590632f);
+            
+
+            marker_4eb8edc0d30940318a3f99018ee6dd43.bindPopup(popup_180d623ae29743789c85930ab644c148);
+
+            
+        
+    
+
+            var marker_3865c6f5bc764348a4bac2c5cddb0268 = L.marker(
+                [44.1404,-73.8453],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_db14c06944454df5af66e3dedcef6f92 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3865c6f5bc764348a4bac2c5cddb0268.setIcon(icon_db14c06944454df5af66e3dedcef6f92);
+            
+    
+            var popup_2ae2e2a332b24cdeb57d4e06f5c9cc01 = L.popup({maxWidth: '300'});
+
+            
+                var html_9805b4d0552f46b09d34d1dd6b359e75 = $('<div id="html_9805b4d0552f46b09d34d1dd6b359e75" style="width: 100.0%; height: 100.0%;">UPPER WOLFJAW <br> 4185 ft | 3619 ft ascent</div>')[0];
+                popup_2ae2e2a332b24cdeb57d4e06f5c9cc01.setContent(html_9805b4d0552f46b09d34d1dd6b359e75);
+            
+
+            marker_3865c6f5bc764348a4bac2c5cddb0268.bindPopup(popup_2ae2e2a332b24cdeb57d4e06f5c9cc01);
+
+            
+        
+    
+
+            var marker_b6ef465d52674486ab28ef23b3390188 = L.marker(
+                [44.1484,-73.8326],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_e4dcf3e0129840df9b2ce78408615882 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b6ef465d52674486ab28ef23b3390188.setIcon(icon_e4dcf3e0129840df9b2ce78408615882);
+            
+    
+            var popup_56beae3e7b8a4161b1757c034182c21d = L.popup({maxWidth: '300'});
+
+            
+                var html_566b08673d1e42aba0dd0b55f6b838b7 = $('<div id="html_566b08673d1e42aba0dd0b55f6b838b7" style="width: 100.0%; height: 100.0%;">LOWER WOLFJAW <br> 4175 ft | 2825 ft ascent</div>')[0];
+                popup_56beae3e7b8a4161b1757c034182c21d.setContent(html_566b08673d1e42aba0dd0b55f6b838b7);
+            
+
+            marker_b6ef465d52674486ab28ef23b3390188.bindPopup(popup_56beae3e7b8a4161b1757c034182c21d);
+
+            
+        
+    
+
+            var marker_ca6ba36f869f4104850ce9668ea77d0a = L.marker(
+                [44.1139,-73.8504],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_997ba54b50304562b40882c50f8599a4);
+            
+    
+
+                var icon_99a4d07c0820492ab138afb746be9602 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca6ba36f869f4104850ce9668ea77d0a.setIcon(icon_99a4d07c0820492ab138afb746be9602);
+            
+    
+            var popup_09a48b0bc2004845acabcf4c16ebcb5d = L.popup({maxWidth: '300'});
+
+            
+                var html_15fde6ef2ae142ebb01764adfeba89ae = $('<div id="html_15fde6ef2ae142ebb01764adfeba89ae" style="width: 100.0%; height: 100.0%;">SAWTEETH <br> 4100 ft | 2975 ft ascent</div>')[0];
+                popup_09a48b0bc2004845acabcf4c16ebcb5d.setContent(html_15fde6ef2ae142ebb01764adfeba89ae);
+            
+
+            marker_ca6ba36f869f4104850ce9668ea77d0a.bindPopup(popup_09a48b0bc2004845acabcf4c16ebcb5d);
+
+            
+        
+    
+            var marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+            var marker_b844c229f0774974b02e274cc64f1ce2 = L.marker(
+                [44.1406,-73.9164],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+                var icon_2edd9468ef6b448a91e20999dfa5678f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b844c229f0774974b02e274cc64f1ce2.setIcon(icon_2edd9468ef6b448a91e20999dfa5678f);
+            
+    
+            var popup_f44acdb7ccfd44f0a761a5cd147004f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_2196dfd4f93d41849b77c4adf26f36be = $('<div id="html_2196dfd4f93d41849b77c4adf26f36be" style="width: 100.0%; height: 100.0%;">TABLETOP <br> 4427 ft | 3660 ft ascent</div>')[0];
+                popup_f44acdb7ccfd44f0a761a5cd147004f6.setContent(html_2196dfd4f93d41849b77c4adf26f36be);
+            
+
+            marker_b844c229f0774974b02e274cc64f1ce2.bindPopup(popup_f44acdb7ccfd44f0a761a5cd147004f6);
+
+            
+        
+    
+
+            var marker_27b4bf1532c7421b818f0a02c2347f56 = L.marker(
+                [44.1823,-73.8704],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+                var icon_61b23e539abf4855adf44d50e924fd92 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_27b4bf1532c7421b818f0a02c2347f56.setIcon(icon_61b23e539abf4855adf44d50e924fd92);
+            
+    
+            var popup_dcdafc389fb74823ac988c3ad2cf723b = L.popup({maxWidth: '300'});
+
+            
+                var html_78e4f7863fc74c469d6b04f41f487d1a = $('<div id="html_78e4f7863fc74c469d6b04f41f487d1a" style="width: 100.0%; height: 100.0%;">BIG SLIDE <br> 4240 ft | 2800 ft ascent</div>')[0];
+                popup_dcdafc389fb74823ac988c3ad2cf723b.setContent(html_78e4f7863fc74c469d6b04f41f487d1a);
+            
+
+            marker_27b4bf1532c7421b818f0a02c2347f56.bindPopup(popup_dcdafc389fb74823ac988c3ad2cf723b);
+
+            
+        
+    
+
+            var marker_32eb75d0860d4afeb26b3064d3c7cc0b = L.marker(
+                [44.157,-73.921],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+                var icon_850725daa0374f2a94be755920b2e1a9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32eb75d0860d4afeb26b3064d3c7cc0b.setIcon(icon_850725daa0374f2a94be755920b2e1a9);
+            
+    
+            var popup_564c645d8dc241eb953446156fd44761 = L.popup({maxWidth: '300'});
+
+            
+                var html_5fb9fdc7c3b5418c8294be1823772a80 = $('<div id="html_5fb9fdc7c3b5418c8294be1823772a80" style="width: 100.0%; height: 100.0%;">PHELPS <br> 4161 ft | 3394 ft ascent</div>')[0];
+                popup_564c645d8dc241eb953446156fd44761.setContent(html_5fb9fdc7c3b5418c8294be1823772a80);
+            
+
+            marker_32eb75d0860d4afeb26b3064d3c7cc0b.bindPopup(popup_564c645d8dc241eb953446156fd44761);
+
+            
+        
+    
+
+            var marker_2407b5f7e64740b78b4896fa9d559cb8 = L.marker(
+                [44.2187,-73.8601],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+                var icon_e350a235ab604cfc958cadc41823352b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2407b5f7e64740b78b4896fa9d559cb8.setIcon(icon_e350a235ab604cfc958cadc41823352b);
+            
+    
+            var popup_fb5a13d0a6784cbca61affc6405c6120 = L.popup({maxWidth: '300'});
+
+            
+                var html_6a7f1e4eaba34481aec90c2776bbb9b3 = $('<div id="html_6a7f1e4eaba34481aec90c2776bbb9b3" style="width: 100.0%; height: 100.0%;">CASCADE <br> 4098 ft | 1940 ft ascent</div>')[0];
+                popup_fb5a13d0a6784cbca61affc6405c6120.setContent(html_6a7f1e4eaba34481aec90c2776bbb9b3);
+            
+
+            marker_2407b5f7e64740b78b4896fa9d559cb8.bindPopup(popup_fb5a13d0a6784cbca61affc6405c6120);
+
+            
+        
+    
+
+            var marker_1314e75ab6e34c64ae12f91ded6ff325 = L.marker(
+                [44.2124,-73.8538],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499);
+            
+    
+
+                var icon_a418ddfefbaf4732bd4fa0298a60700a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1314e75ab6e34c64ae12f91ded6ff325.setIcon(icon_a418ddfefbaf4732bd4fa0298a60700a);
+            
+    
+            var popup_b37fcd57ab1149f2b4a5765d21ad155a = L.popup({maxWidth: '300'});
+
+            
+                var html_eb7a035f022d425ba7817209a35c23e6 = $('<div id="html_eb7a035f022d425ba7817209a35c23e6" style="width: 100.0%; height: 100.0%;">PORTER MOUNTAIN <br> 4059 ft | 2700 ft ascent</div>')[0];
+                popup_b37fcd57ab1149f2b4a5765d21ad155a.setContent(html_eb7a035f022d425ba7817209a35c23e6);
+            
+
+            marker_1314e75ab6e34c64ae12f91ded6ff325.bindPopup(popup_b37fcd57ab1149f2b4a5765d21ad155a);
+
+            
+        
+    
+            var marker_cluster_6aed818f798b447e98330a9d3caa767c = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_6aed818f798b447e98330a9d3caa767c);
+            
+    
+
+            var marker_3faad0e684da481cb1e1a498bc62eaca = L.marker(
+                [44.1798,-74.0438],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_6aed818f798b447e98330a9d3caa767c);
+            
+    
+
+                var icon_54ee3355ce26414e8d9a310ef9cc3463 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3faad0e684da481cb1e1a498bc62eaca.setIcon(icon_54ee3355ce26414e8d9a310ef9cc3463);
+            
+    
+            var popup_28e88c0f7b244da29dd3b1bb676f849b = L.popup({maxWidth: '300'});
+
+            
+                var html_130d4472aee14e68811f90c811e0ae03 = $('<div id="html_130d4472aee14e68811f90c811e0ae03" style="width: 100.0%; height: 100.0%;">STREET <br> 4166 ft | 2115 ft ascent</div>')[0];
+                popup_28e88c0f7b244da29dd3b1bb676f849b.setContent(html_130d4472aee14e68811f90c811e0ae03);
+            
+
+            marker_3faad0e684da481cb1e1a498bc62eaca.bindPopup(popup_28e88c0f7b244da29dd3b1bb676f849b);
+
+            
+        
+    
+
+            var marker_3109a8b3007842ad99b591d61efb2889 = L.marker(
+                [44.1931,-74.024],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_6aed818f798b447e98330a9d3caa767c);
+            
+    
+
+                var icon_ca4b6e5d15b84573ad0c229ebfe30b91 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'lightgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3109a8b3007842ad99b591d61efb2889.setIcon(icon_ca4b6e5d15b84573ad0c229ebfe30b91);
+            
+    
+            var popup_99c138680c5b4e2496a87b6567fcfdfd = L.popup({maxWidth: '300'});
+
+            
+                var html_fae7bf130b324afe85b9166cce5cf17b = $('<div id="html_fae7bf130b324afe85b9166cce5cf17b" style="width: 100.0%; height: 100.0%;">NYE <br> 3895 ft | 1844 ft ascent</div>')[0];
+                popup_99c138680c5b4e2496a87b6567fcfdfd.setContent(html_fae7bf130b324afe85b9166cce5cf17b);
+            
+
+            marker_3109a8b3007842ad99b591d61efb2889.bindPopup(popup_99c138680c5b4e2496a87b6567fcfdfd);
+
+            
+        
+    
+            var marker_cluster_5426e8096012401b9b15b8209182c1fe = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_5426e8096012401b9b15b8209182c1fe);
+            
+    
+
+            var marker_6e1ecedac5954e19b511ac4505ce1fe1 = L.marker(
+                [44.144,-73.987],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5426e8096012401b9b15b8209182c1fe);
+            
+    
+
+                var icon_b8d05573250e42908dcf218c8b2b740a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6e1ecedac5954e19b511ac4505ce1fe1.setIcon(icon_b8d05573250e42908dcf218c8b2b740a);
+            
+    
+            var popup_498b8b5269574a2cbd7dfc4712f9cc8d = L.popup({maxWidth: '300'});
+
+            
+                var html_8b0b03fbecdf4140ae95efca22a6794a = $('<div id="html_8b0b03fbecdf4140ae95efca22a6794a" style="width: 100.0%; height: 100.0%;">ALGONQUIN <br> 5114 ft | 2936 ft ascent</div>')[0];
+                popup_498b8b5269574a2cbd7dfc4712f9cc8d.setContent(html_8b0b03fbecdf4140ae95efca22a6794a);
+            
+
+            marker_6e1ecedac5954e19b511ac4505ce1fe1.bindPopup(popup_498b8b5269574a2cbd7dfc4712f9cc8d);
+
+            
+        
+    
+
+            var marker_88bc2e4c69cc4366a2541fe02a65ed64 = L.marker(
+                [44.137,-73.999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5426e8096012401b9b15b8209182c1fe);
+            
+    
+
+                var icon_ad7529ac412643a397366bd018759143 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_88bc2e4c69cc4366a2541fe02a65ed64.setIcon(icon_ad7529ac412643a397366bd018759143);
+            
+    
+            var popup_332eef8b7ee645508c7f5f91a09a55ec = L.popup({maxWidth: '300'});
+
+            
+                var html_9b21285bf45147909d60e92170c677cc = $('<div id="html_9b21285bf45147909d60e92170c677cc" style="width: 100.0%; height: 100.0%;">IROQUOIS <br> 4840 ft | 3250 ft ascent</div>')[0];
+                popup_332eef8b7ee645508c7f5f91a09a55ec.setContent(html_9b21285bf45147909d60e92170c677cc);
+            
+
+            marker_88bc2e4c69cc4366a2541fe02a65ed64.bindPopup(popup_332eef8b7ee645508c7f5f91a09a55ec);
+
+            
+        
+    
+
+            var marker_f5dff30cf6ea42c0872b97876689ac20 = L.marker(
+                [44.152,-73.98100000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5426e8096012401b9b15b8209182c1fe);
+            
+    
+
+                var icon_5fd52cf3cd2045da9ffeeb987568749f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5dff30cf6ea42c0872b97876689ac20.setIcon(icon_5fd52cf3cd2045da9ffeeb987568749f);
+            
+    
+            var popup_9cdf91720733413dab92a8989a52d315 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff951e8011a54c23b198ebbc4959f4e3 = $('<div id="html_ff951e8011a54c23b198ebbc4959f4e3" style="width: 100.0%; height: 100.0%;">WRIGHT <br> 4580 ft | 2400 ft ascent</div>')[0];
+                popup_9cdf91720733413dab92a8989a52d315.setContent(html_ff951e8011a54c23b198ebbc4959f4e3);
+            
+
+            marker_f5dff30cf6ea42c0872b97876689ac20.bindPopup(popup_9cdf91720733413dab92a8989a52d315);
+
+            
+        
+    
+
+            var marker_a48e86ed01cc4530a72b7d31c60d479f = L.marker(
+                [44.1276,-74.0118],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5426e8096012401b9b15b8209182c1fe);
+            
+    
+
+                var icon_3b76ccad865a42798691afc6101f7bd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a48e86ed01cc4530a72b7d31c60d479f.setIcon(icon_3b76ccad865a42798691afc6101f7bd2);
+            
+    
+            var popup_f5fd7b0d319c44b68ce646f6d54417fc = L.popup({maxWidth: '300'});
+
+            
+                var html_69955adceac0457db18e86fdde7792cc = $('<div id="html_69955adceac0457db18e86fdde7792cc" style="width: 100.0%; height: 100.0%;">MARSHALL <br> 4360 ft | 2575 ft ascent</div>')[0];
+                popup_f5fd7b0d319c44b68ce646f6d54417fc.setContent(html_69955adceac0457db18e86fdde7792cc);
+            
+
+            marker_a48e86ed01cc4530a72b7d31c60d479f.bindPopup(popup_f5fd7b0d319c44b68ce646f6d54417fc);
+
+            
+        
+    
+            var marker_cluster_4d49608bc6e14191bd9e6309e93dbaff = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+            var marker_4c1d115a0ecd4608b0d100a924aa364b = L.marker(
+                [44.113,-73.92399999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_4cfd46af4df54aeb8f13bf963a8b40b2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c1d115a0ecd4608b0d100a924aa364b.setIcon(icon_4cfd46af4df54aeb8f13bf963a8b40b2);
+            
+    
+            var popup_47645a6fa50741ed864aec7d3afa5366 = L.popup({maxWidth: '300'});
+
+            
+                var html_00d0c56a76d34030833dbf2b83e18584 = $('<div id="html_00d0c56a76d34030833dbf2b83e18584" style="width: 100.0%; height: 100.0%;">MARCY <br> 5344 ft | 3166 ft ascent</div>')[0];
+                popup_47645a6fa50741ed864aec7d3afa5366.setContent(html_00d0c56a76d34030833dbf2b83e18584);
+            
+
+            marker_4c1d115a0ecd4608b0d100a924aa364b.bindPopup(popup_47645a6fa50741ed864aec7d3afa5366);
+
+            
+        
+    
+
+            var marker_66231395d90d40b0a6825dd387afc892 = L.marker(
+                [44.106,-73.90100000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_4b1ba95e18a745fa90cd2547ee057935 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_66231395d90d40b0a6825dd387afc892.setIcon(icon_4b1ba95e18a745fa90cd2547ee057935);
+            
+    
+            var popup_238d32ef8eba4805b2dec7fcd2345689 = L.popup({maxWidth: '300'});
+
+            
+                var html_cc4051dfa5ad4c7abac26dc708a8decf = $('<div id="html_cc4051dfa5ad4c7abac26dc708a8decf" style="width: 100.0%; height: 100.0%;">HAYSTACK <br> 4960 ft | 3570 ft ascent</div>')[0];
+                popup_238d32ef8eba4805b2dec7fcd2345689.setContent(html_cc4051dfa5ad4c7abac26dc708a8decf);
+            
+
+            marker_66231395d90d40b0a6825dd387afc892.bindPopup(popup_238d32ef8eba4805b2dec7fcd2345689);
+
+            
+        
+    
+
+            var marker_da977e4c366f4b939f165d9a8aae225f = L.marker(
+                [44.099,-73.931],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_219e6df38d29455aada26b45f1013194 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_da977e4c366f4b939f165d9a8aae225f.setIcon(icon_219e6df38d29455aada26b45f1013194);
+            
+    
+            var popup_a73c9e4a36f5447ca1f83f0f60151871 = L.popup({maxWidth: '300'});
+
+            
+                var html_5dcc7ce15ef44815b21eea8dce0527d5 = $('<div id="html_5dcc7ce15ef44815b21eea8dce0527d5" style="width: 100.0%; height: 100.0%;">SKYLIGHT <br> 4926 ft | 4265 ft ascent</div>')[0];
+                popup_a73c9e4a36f5447ca1f83f0f60151871.setContent(html_5dcc7ce15ef44815b21eea8dce0527d5);
+            
+
+            marker_da977e4c366f4b939f165d9a8aae225f.bindPopup(popup_a73c9e4a36f5447ca1f83f0f60151871);
+
+            
+        
+    
+
+            var marker_d03ebd26abca48dea473a74e58f0e018 = L.marker(
+                [44.111000000000004,-73.935],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_5ca2b5b9bd884ec581bf390285ce2524 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d03ebd26abca48dea473a74e58f0e018.setIcon(icon_5ca2b5b9bd884ec581bf390285ce2524);
+            
+    
+            var popup_6dd0cb366c474ccfb2d12c9011629f7e = L.popup({maxWidth: '300'});
+
+            
+                var html_d55d1c1a7af14dc6aee2d8fdda6932cc = $('<div id="html_d55d1c1a7af14dc6aee2d8fdda6932cc" style="width: 100.0%; height: 100.0%;">GRAY <br> 4840 ft | 4178 ft ascent</div>')[0];
+                popup_6dd0cb366c474ccfb2d12c9011629f7e.setContent(html_d55d1c1a7af14dc6aee2d8fdda6932cc);
+            
+
+            marker_d03ebd26abca48dea473a74e58f0e018.bindPopup(popup_6dd0cb366c474ccfb2d12c9011629f7e);
+
+            
+        
+    
+
+            var marker_75d9f7f807f240c8adae279f19b87fc2 = L.marker(
+                [44.126999999999995,-73.96],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_bc38c7cdc00849d19242124857e20d66 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_75d9f7f807f240c8adae279f19b87fc2.setIcon(icon_bc38c7cdc00849d19242124857e20d66);
+            
+    
+            var popup_e9593938f07049129642d151968527cf = L.popup({maxWidth: '300'});
+
+            
+                var html_baf9f53c98a24a6e8220db343bb0f84d = $('<div id="html_baf9f53c98a24a6e8220db343bb0f84d" style="width: 100.0%; height: 100.0%;">COLDEN <br> 4714 ft | 2850 ft ascent</div>')[0];
+                popup_e9593938f07049129642d151968527cf.setContent(html_baf9f53c98a24a6e8220db343bb0f84d);
+            
+
+            marker_75d9f7f807f240c8adae279f19b87fc2.bindPopup(popup_e9593938f07049129642d151968527cf);
+
+            
+        
+    
+
+            var marker_8e992a4bcff741d0ad110b3a19804651 = L.marker(
+                [44.095,-73.95],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_0aef6504fe634b23a4867517eae50fc8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e992a4bcff741d0ad110b3a19804651.setIcon(icon_0aef6504fe634b23a4867517eae50fc8);
+            
+    
+            var popup_2c8495d2d5114dd486f2c8b27e903926 = L.popup({maxWidth: '300'});
+
+            
+                var html_6caf9f6d26e94529af090adeea07d0a9 = $('<div id="html_6caf9f6d26e94529af090adeea07d0a9" style="width: 100.0%; height: 100.0%;">REDFIELD <br> 4606 ft | 3225 ft ascent</div>')[0];
+                popup_2c8495d2d5114dd486f2c8b27e903926.setContent(html_6caf9f6d26e94529af090adeea07d0a9);
+            
+
+            marker_8e992a4bcff741d0ad110b3a19804651.bindPopup(popup_2c8495d2d5114dd486f2c8b27e903926);
+
+            
+        
+    
+
+            var marker_e80fafc86bff4f00aae84004bc740a19 = L.marker(
+                [44.0709,-73.9399],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_e265adc29727466690022e677d37f8eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e80fafc86bff4f00aae84004bc740a19.setIcon(icon_e265adc29727466690022e677d37f8eb);
+            
+    
+            var popup_40289765c6ce46ea918f4f88d7a33be1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ab2c9f07b844bbcbc47d639f4289914 = $('<div id="html_0ab2c9f07b844bbcbc47d639f4289914" style="width: 100.0%; height: 100.0%;">ALLEN <br> 4340 ft | 2540 ft ascent</div>')[0];
+                popup_40289765c6ce46ea918f4f88d7a33be1.setContent(html_0ab2c9f07b844bbcbc47d639f4289914);
+            
+
+            marker_e80fafc86bff4f00aae84004bc740a19.bindPopup(popup_40289765c6ce46ea918f4f88d7a33be1);
+
+            
+        
+    
+
+            var marker_fde8b017948b45e5a9ee95b4a79ef089 = L.marker(
+                [44.1031,-73.9751],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_4d49608bc6e14191bd9e6309e93dbaff);
+            
+    
+
+                var icon_cc61af5931554c2384de4ee3f49f2713 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'lightgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fde8b017948b45e5a9ee95b4a79ef089.setIcon(icon_cc61af5931554c2384de4ee3f49f2713);
+            
+    
+            var popup_c615baf5c78d4b918e3396b7378b51a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_dab3a3d7850f4e3184adf69640973032 = $('<div id="html_dab3a3d7850f4e3184adf69640973032" style="width: 100.0%; height: 100.0%;">CLIFF <br> 3960 ft | 2160 ft ascent</div>')[0];
+                popup_c615baf5c78d4b918e3396b7378b51a3.setContent(html_dab3a3d7850f4e3184adf69640973032);
+            
+
+            marker_fde8b017948b45e5a9ee95b4a79ef089.bindPopup(popup_c615baf5c78d4b918e3396b7378b51a3);
+
+            
+        
+    
+            var marker_cluster_cf1f5a1ac31e44e78f8ca02ecd9853a2 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_cf1f5a1ac31e44e78f8ca02ecd9853a2);
+            
+    
+
+            var marker_44b1e386b97f474f8d5710c965d05ddd = L.marker(
+                [44.36600000000001,-73.903],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_cf1f5a1ac31e44e78f8ca02ecd9853a2);
+            
+    
+
+                var icon_56a27606c86e49c0baafab2a1339dff1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44b1e386b97f474f8d5710c965d05ddd.setIcon(icon_56a27606c86e49c0baafab2a1339dff1);
+            
+    
+            var popup_e1ad5bd72fbe4943bd5cd7dc5e3d7100 = L.popup({maxWidth: '300'});
+
+            
+                var html_ecb59a577c554b7594ef1360f4c9b451 = $('<div id="html_ecb59a577c554b7594ef1360f4c9b451" style="width: 100.0%; height: 100.0%;">WHITEFACE <br> 4867 ft | 2535 ft ascent</div>')[0];
+                popup_e1ad5bd72fbe4943bd5cd7dc5e3d7100.setContent(html_ecb59a577c554b7594ef1360f4c9b451);
+            
+
+            marker_44b1e386b97f474f8d5710c965d05ddd.bindPopup(popup_e1ad5bd72fbe4943bd5cd7dc5e3d7100);
+
+            
+        
+    
+
+            var marker_8e44c5774af14ba68a475cfe8f214261 = L.marker(
+                [44.3872,-73.8899],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_cf1f5a1ac31e44e78f8ca02ecd9853a2);
+            
+    
+
+                var icon_5f11be8b20dd40b4b2efb1b24e3aef73 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e44c5774af14ba68a475cfe8f214261.setIcon(icon_5f11be8b20dd40b4b2efb1b24e3aef73);
+            
+    
+            var popup_e4cabbdd0d764b30b96cf2361998da59 = L.popup({maxWidth: '300'});
+
+            
+                var html_b403995420a24fe3a1e59a2c3166b50b = $('<div id="html_b403995420a24fe3a1e59a2c3166b50b" style="width: 100.0%; height: 100.0%;">ESTHER <br> 4240 ft | 3020 ft ascent</div>')[0];
+                popup_e4cabbdd0d764b30b96cf2361998da59.setContent(html_b403995420a24fe3a1e59a2c3166b50b);
+            
+
+            marker_8e44c5774af14ba68a475cfe8f214261.bindPopup(popup_e4cabbdd0d764b30b96cf2361998da59);
+
+            
+        
+    
+            var marker_cluster_237e10f10c204894a5668208d2cbb491 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_237e10f10c204894a5668208d2cbb491);
+            
+    
+
+            var marker_44b878dd19ca401893f50edc867f1b76 = L.marker(
+                [44.1613,-73.7204],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_237e10f10c204894a5668208d2cbb491);
+            
+    
+
+                var icon_310a568125314934bbd9853668821ec2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44b878dd19ca401893f50edc867f1b76.setIcon(icon_310a568125314934bbd9853668821ec2);
+            
+    
+            var popup_dc4d9222ed2e413aa4ac320c74d51531 = L.popup({maxWidth: '300'});
+
+            
+                var html_a67d0d3f0bbb48fcb8e81774ad892255 = $('<div id="html_a67d0d3f0bbb48fcb8e81774ad892255" style="width: 100.0%; height: 100.0%;">GIANT <br> 4627 ft | 3050 ft ascent</div>')[0];
+                popup_dc4d9222ed2e413aa4ac320c74d51531.setContent(html_a67d0d3f0bbb48fcb8e81774ad892255);
+            
+
+            marker_44b878dd19ca401893f50edc867f1b76.bindPopup(popup_dc4d9222ed2e413aa4ac320c74d51531);
+
+            
+        
+    
+
+            var marker_59a3474360694a0281970cb39bcd5b51 = L.marker(
+                [44.1544,-73.7055],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_237e10f10c204894a5668208d2cbb491);
+            
+    
+
+                var icon_4dc66c23594c4e64ba290b364e6cd954 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59a3474360694a0281970cb39bcd5b51.setIcon(icon_4dc66c23594c4e64ba290b364e6cd954);
+            
+    
+            var popup_62d10f72d70a4165acb1d3f4aeea505c = L.popup({maxWidth: '300'});
+
+            
+                var html_4947c1bda3284e558d9566c70acbcc8d = $('<div id="html_4947c1bda3284e558d9566c70acbcc8d" style="width: 100.0%; height: 100.0%;">ROCKY PEAK <br> 4420 ft | 4500 ft ascent</div>')[0];
+                popup_62d10f72d70a4165acb1d3f4aeea505c.setContent(html_4947c1bda3284e558d9566c70acbcc8d);
+            
+
+            marker_59a3474360694a0281970cb39bcd5b51.bindPopup(popup_62d10f72d70a4165acb1d3f4aeea505c);
+
+            
+        
+    
+            var marker_cluster_e2e57ec0caa84aae8000560fb892a64c = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_e2e57ec0caa84aae8000560fb892a64c);
+            
+    
+
+            var marker_746e7c6f2e244729b07bfc3239559631 = L.marker(
+                [44.082,-74.131],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e2e57ec0caa84aae8000560fb892a64c);
+            
+    
+
+                var icon_818f65eb37c3411a9e19abe622af7c8b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_746e7c6f2e244729b07bfc3239559631.setIcon(icon_818f65eb37c3411a9e19abe622af7c8b);
+            
+    
+            var popup_2929f300770245e687aea9e1485c8982 = L.popup({maxWidth: '300'});
+
+            
+                var html_45435b5d191e4077940336151993a2e0 = $('<div id="html_45435b5d191e4077940336151993a2e0" style="width: 100.0%; height: 100.0%;">SANTANONI <br> 4607 ft | 2860 ft ascent</div>')[0];
+                popup_2929f300770245e687aea9e1485c8982.setContent(html_45435b5d191e4077940336151993a2e0);
+            
+
+            marker_746e7c6f2e244729b07bfc3239559631.bindPopup(popup_2929f300770245e687aea9e1485c8982);
+
+            
+        
+    
+
+            var marker_9d951fbd8de04b70abdcd4e6586ee6a7 = L.marker(
+                [44.098,-74.133],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e2e57ec0caa84aae8000560fb892a64c);
+            
+    
+
+                var icon_6c2ef00605e54d1096b4d9640db62606 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d951fbd8de04b70abdcd4e6586ee6a7.setIcon(icon_6c2ef00605e54d1096b4d9640db62606);
+            
+    
+            var popup_94275be51f12447992aeef8dde69d4e9 = L.popup({maxWidth: '300'});
+
+            
+                var html_d67310be73ec4985adf84fedb38af9ca = $('<div id="html_d67310be73ec4985adf84fedb38af9ca" style="width: 100.0%; height: 100.0%;">PANTHER <br> 4442 ft | 3762 ft ascent</div>')[0];
+                popup_94275be51f12447992aeef8dde69d4e9.setContent(html_d67310be73ec4985adf84fedb38af9ca);
+            
+
+            marker_9d951fbd8de04b70abdcd4e6586ee6a7.bindPopup(popup_94275be51f12447992aeef8dde69d4e9);
+
+            
+        
+    
+
+            var marker_9c686a1e117240018d16aa7033cb4ccd = L.marker(
+                [44.0955,-74.1603],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_e2e57ec0caa84aae8000560fb892a64c);
+            
+    
+
+                var icon_45710edbceb24e2983b3b62932fc9a77 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'lightgreen',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c686a1e117240018d16aa7033cb4ccd.setIcon(icon_45710edbceb24e2983b3b62932fc9a77);
+            
+    
+            var popup_8fe858aa855a468ca4319057564de790 = L.popup({maxWidth: '300'});
+
+            
+                var html_2265ace78bfc45299c36a511863cd9c0 = $('<div id="html_2265ace78bfc45299c36a511863cd9c0" style="width: 100.0%; height: 100.0%;">COUCHSACHRAGA <br> 3820 ft | 3140 ft ascent</div>')[0];
+                popup_8fe858aa855a468ca4319057564de790.setContent(html_2265ace78bfc45299c36a511863cd9c0);
+            
+
+            marker_9c686a1e117240018d16aa7033cb4ccd.bindPopup(popup_8fe858aa855a468ca4319057564de790);
+
+            
+        
+    
+            var marker_cluster_56373cb20fb146168b3d7a12c494d650 = L.markerClusterGroup({
+                
+            });
+            map_3987020a608849bfbc788d65c5bbbe87.addLayer(marker_cluster_56373cb20fb146168b3d7a12c494d650);
+            
+    
+
+            var marker_2b0778c0309b44759ed339ba1116d62b = L.marker(
+                [44.1598,-74.1993],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_56373cb20fb146168b3d7a12c494d650);
+            
+    
+
+                var icon_1886fde704ed4748a27457852bad317b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b0778c0309b44759ed339ba1116d62b.setIcon(icon_1886fde704ed4748a27457852bad317b);
+            
+    
+            var popup_5078b4ffe4fa48c7b75bc992f81e2ec4 = L.popup({maxWidth: '300'});
+
+            
+                var html_26b38762a3e74708b24f8e899a43f280 = $('<div id="html_26b38762a3e74708b24f8e899a43f280" style="width: 100.0%; height: 100.0%;">SEWARD <br> 4361 ft | 3490 ft ascent</div>')[0];
+                popup_5078b4ffe4fa48c7b75bc992f81e2ec4.setContent(html_26b38762a3e74708b24f8e899a43f280);
+            
+
+            marker_2b0778c0309b44759ed339ba1116d62b.bindPopup(popup_5078b4ffe4fa48c7b75bc992f81e2ec4);
+
+            
+        
+    
+
+            var marker_15d35a9e10b94fa0bdb6e37d735dd284 = L.marker(
+                [44.153999999999996,-74.2116],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_56373cb20fb146168b3d7a12c494d650);
+            
+    
+
+                var icon_1c3108eea76e4823a044f1e18c241a25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15d35a9e10b94fa0bdb6e37d735dd284.setIcon(icon_1c3108eea76e4823a044f1e18c241a25);
+            
+    
+            var popup_56150a5237cd440294d0c10488a738d9 = L.popup({maxWidth: '300'});
+
+            
+                var html_4dddafd459cd4c11849e316d99e000c7 = $('<div id="html_4dddafd459cd4c11849e316d99e000c7" style="width: 100.0%; height: 100.0%;">DONALDSON <br> 4140 ft | 3490 ft ascent</div>')[0];
+                popup_56150a5237cd440294d0c10488a738d9.setContent(html_4dddafd459cd4c11849e316d99e000c7);
+            
+
+            marker_15d35a9e10b94fa0bdb6e37d735dd284.bindPopup(popup_56150a5237cd440294d0c10488a738d9);
+
+            
+        
+    
+
+            var marker_41b37bd97adf45b39a8e573bc9daa189 = L.marker(
+                [44.158,-74.1726],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_56373cb20fb146168b3d7a12c494d650);
+            
+    
+
+                var icon_e2248bf1f3fa45a29cc5bf64035c2473 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41b37bd97adf45b39a8e573bc9daa189.setIcon(icon_e2248bf1f3fa45a29cc5bf64035c2473);
+            
+    
+            var popup_35f575fc4dc84ae383ea3a48d341af8c = L.popup({maxWidth: '300'});
+
+            
+                var html_416a2009b257477ab996464875199055 = $('<div id="html_416a2009b257477ab996464875199055" style="width: 100.0%; height: 100.0%;">SEYMOUR <br> 4120 ft | 2370 ft ascent</div>')[0];
+                popup_35f575fc4dc84ae383ea3a48d341af8c.setContent(html_416a2009b257477ab996464875199055);
+            
+
+            marker_41b37bd97adf45b39a8e573bc9daa189.bindPopup(popup_35f575fc4dc84ae383ea3a48d341af8c);
+
+            
+        
+    
+
+            var marker_c8520b7fb39b4138a649b34c3fefb79f = L.marker(
+                [44.1438,-74.2143],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_56373cb20fb146168b3d7a12c494d650);
+            
+    
+
+                var icon_046f1b63f6ea48d4bf7b428516917cb3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c8520b7fb39b4138a649b34c3fefb79f.setIcon(icon_046f1b63f6ea48d4bf7b428516917cb3);
+            
+    
+            var popup_9036a59a82dd44aa8697668800dc972e = L.popup({maxWidth: '300'});
+
+            
+                var html_2db5c572145f41dcb4f38c3d3bd3f44d = $('<div id="html_2db5c572145f41dcb4f38c3d3bd3f44d" style="width: 100.0%; height: 100.0%;">EMMONS <br> 4040 ft | 3490 ft ascent</div>')[0];
+                popup_9036a59a82dd44aa8697668800dc972e.setContent(html_2db5c572145f41dcb4f38c3d3bd3f44d);
+            
+
+            marker_c8520b7fb39b4138a649b34c3fefb79f.bindPopup(popup_9036a59a82dd44aa8697668800dc972e);
+
+            
+        
+    
+            var layer_control_0ade506c32cf4e8ba47080a647be2001 = {
+                base_layers : { "stamenterrain" : tile_layer_de0b578b61fd4d95b7b855fd4c3318da, },
+                overlays : { "Dix Range" : marker_cluster_367f12bc66914844981a66aaf1f6d2e9,"Colvin Range" : marker_cluster_615e9d6ca7fe411ea583fb8ac9ba2c67,"Great Range" : marker_cluster_997ba54b50304562b40882c50f8599a4,"Northern High Peaks" : marker_cluster_d6a9f73f9e1f4a3c8eaa66bbaf31a499,"Street Range" : marker_cluster_6aed818f798b447e98330a9d3caa767c,"McIntyre Mountains" : marker_cluster_5426e8096012401b9b15b8209182c1fe,"Marcy Group" : marker_cluster_4d49608bc6e14191bd9e6309e93dbaff,"Whiteface Mountain Area" : marker_cluster_cf1f5a1ac31e44e78f8ca02ecd9853a2,"Giant Mountain Area" : marker_cluster_237e10f10c204894a5668208d2cbb491,"Santanoni Range" : marker_cluster_e2e57ec0caa84aae8000560fb892a64c,"Seward Mountains" : marker_cluster_56373cb20fb146168b3d7a12c494d650, }
+                };
+            L.control.layers(
+                layer_control_0ade506c32cf4e8ba47080a647be2001.base_layers,
+                layer_control_0ade506c32cf4e8ba47080a647be2001.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_3987020a608849bfbc788d65c5bbbe87);
+        
+</script>
